@@ -1,0 +1,30 @@
+#include <stdio.h> 
+#include <conio.h> 
+
+main(){ 
+int arreglo[4][5]={{5,11,7,2,7},{3,8,15,20,4},{0,10,1,5,1},{10,4,0,3,9}}; 
+
+
+int x=0; 
+int y=0; 
+for(x=0; x<=3; x++)
+{ 
+  for(y=0; y<=4; y++)
+  { 
+    printf(" El valor de la celda[%d][%d]: %d \n", x, y, arreglo[x][y]); 
+  } 
+} 
+                printf(" \n"); 
+
+for(x=0; x<=3; x++)
+{ 
+  for(y=0; y<=4; y++)
+  { 
+    printf(" [%d][%d]: %d ", x, y, arreglo[x][y]); 
+    
+  }
+   printf(" \n");  
+} 
+
+getche(); 
+} 
